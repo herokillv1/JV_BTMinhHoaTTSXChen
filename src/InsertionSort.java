@@ -11,6 +11,7 @@ public class InsertionSort {
              int X = arr[i];
              int k ;
              for (k=i-1;k>=0 && arr[k] > X;k--){
+                 System.out.println(arr[k+1]+" đổi chỗ cho "+arr[k]);
                  arr[k+1] = arr[k];
              }
 
